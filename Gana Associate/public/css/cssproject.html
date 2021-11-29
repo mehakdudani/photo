@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: white;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        .n {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .g {
+            margin-left: 28%;
+        }
+        
+        a {
+            margin-left: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        a:hover {
+            color: green;
+        }
+        
+        a:link {
+            color: gold;
+        }
+        
+        a:visited {
+            color: blueviolet;
+        }
+        
+        a.active {
+            color: blue;
+        }
+        
+        .l {
+            content: url("cpub/cssimg/dlf-carasol_1.jpg");
+            position: relative;
+            width: 100%;
+            color: crimson;
+            position: relative;
+            text-shadow: 2px 2px blue;
+            font-weight: bolder;
+        }
+        
+        .ob {
+            background-image: url("cpub/cssimg/dlf-2-screen.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            color: white;
+            text-align: center;
+            position: relative;
+            height: 50px;
+            font-size: x-large;
+        }
+        
+        .i {
+            display: inline-block;
+            width: 90%;
+            height: 90%;
+        }
+        
+        .f {
+            background-color: black;
+            text-align: center;
+            font-size: large;
+            color: white;
+            display: inline-block;
+            width: 100%;
+            position: relative;
+        }
+        
+        span {
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+        
+        .t {
+            display: block;
+            text-align: justify;
+            font-size: large;
+            width: 50%;
+            margin-right: 9%;
+        }
+        
+        .s {
+            display: flex;
+        }
+        
+        .x {
+            background-image: url("cpub/cssimg/upcoming-projects.png");
+            background-repeat: no-repeat;
+            width: 100%;
+            color: gold;
+            text-align: center;
+            font-size: larger;
+            display: inline-block;
+            height: fit-content;
+        }
+        
+        .d {
+            margin-left: 65%;
+        }
+        
+        .r {
+            margin-left: 80%;
+        }
+        
+        .z {
+            margin-right: 5%;
+        }
+        
+        @media screen and (min-width: 600px) {
+            body {}
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="n">
+
+            <img src="cpub/cssimg/logo.png">
+            <img src="cpub/cssimg/phone.png">
+            <img src="cpub/cssimg/share.png">
+            <img src="cpub/cssimg/email.png">
+
+            <a class="g" href="cssproject.html">HOME</a> |
+            <a href="aboutcss.html" target="_blank">ABOUT US</a> |
+            <a href="#ORIGINAL_BOOKINGS">ORIGINAL BOOKINGS</a> |
+            <a href="#UPCOMING_PROJECTS">UPCOMING PROJECTS</a> |
+            <a href="contact csshtml.html" target="_blank">CONTACT US</a>
+        </nav>
+
+        <div class="l">
+            <p class="l">Luxery Homes For Elevated Living</p>
+        </div>
+        <hr>
+    </header>
+    <section>
+        <div class="ob">
+            <h2>ORIGINAL BOOKINGS</h2>
+        </div>
+        <a name="ORIGINAL_BOOKINGS"></a>
+        <div class="s">
+            <!--first container-->
+            <div class="i">
+                <img class="i" src="cpub/cssimg/dlf-1-l.jpg">
+            </div>
+            <p class="t">
+                <span>DLF PHASE I, II, II</span><sup>SHIVAJI MARG, MOTI NAGAR</sup><br><br> DLF Capital Greens at Moti Nagar New Delhi is all about the great location, the splendidly garnished palette of advantages, and the lush green surrounding. It
+                is 28 acres of the gated community of elegant 2, 3, and 4 BHK Apartments, inspired from ultra-modern architecture and crafted to perfection<br><br>
+                <span>28</span><sup>ACRES GATED COMMUNIT</sup><br><br>
+                <span class="d">2, 3, 4 & 5</span><sup>BHK</sup><br><br>
+                <span>66</span><sup>ACRES GREEN SPACE</sup><br><br>
+                <img src="cpub/cssimg/btn-hover.png" style="margin-left: 25%; width:50%;height: 10%;">
+            </p>
+        </div>
+        <div class="s">
+            <!--this is my second container which contains paragraph and image-->
+            <p class="t">
+                <span>THE AMARYLLI</span><sup>KAROL BAGH</sup><br><br> The Amaryllis would shine and enhance the landscape of Delhi to unimaginable height. The location, the structure, the amenities, the lifestyle is set to make The Amaryllis add life
+                and zing to the heart of Delhi<br><br>
+                <span>TOP</span><sup>AMENITIES</sup><br><br>
+                <span class="d">2, 3, 4 & 5</span><sup>BHK</sup><br><br>
+                <span>66</span><sup>ACRES GREEN SPACE</sup><br><br>
+                <img src="cpub/cssimg/btn-hover.png" style="margin-left: 25%; width:50%;height: 10%;">
+            </p>
+            <div class="i">
+                <img class="i" src="cpub/cssimg/amaryllis.jpg">
+            </div>
+        </div>
+        <div class="s">
+            <!--3rd container-->
+            <div class="i">
+                <img class="i" src="cpub/cssimg/godrej-south-estate.jpg">
+            </div>
+            <p class="t">
+                <span>GODREJ SOUTH ESTAT</span><sup>South Delhi</sup><br><br>Imagine an address that could rede?ne the skyline of South Delhi. One with the stature that towers far above the rest and a copper crown that graces its head. One that comes
+                from intricate design and a deep understanding of what luxury truly is. An address that takes even the air you breathe to a whole new level<br><br>
+                <span>4</span><sup>TOWERS</sup><br><br>
+                <span class="d">PRIVATE</span><sup>GARDEN</sup><br><br>
+                <span>TROPICAL</span><sup>LANDSCAP</sup><br><br>
+                <img src="cpub/cssimg/btn-hover.png" style="margin-left: 25%; width:50%;height: 10%;">
+            </p>
+        </div>
+        <div class="x">
+            <h2>UPCOMING PROJECTS</h2>
+        </div>
+        <a name="UPCOMING_PROJECTS"></a>
+    </section>
+    <div class="s">
+        <!--4th div container-->
+        <div class="i">
+            <img class="i" src="cpub/cssimg/dlf-top-view.jpg">
+        </div>
+        <p class="t">
+            <span>DLF MIDTOWN</span><sup>SHIVAJI MARG, MOTI NAGAR</sup><br><br> DLF Midtown is all about luxurious living and lavish outdoors, retail outlets and recreational spots. It is actually a city within a city. Located exactly adjacent to DLF
+            Phase I, II and III at Shivaji Marg, Moti Nagar, DLF Midtown is the best property in Central Delhi. About 100 acres of green space for great living experience<br><br>
+            <img src="cpub/cssimg/GIC.png" width="40%" height="20%"><sup>JOINT VENTURE PARTNER</sup><br><br>
+            <b class="d">ARCHITECT<sup><img class="r" src="cpub/cssimg/DPA.png" width="40%" height="20%"></sup></b><br><br>
+            <img src="cpub/cssimg/btn-hover.png" style="margin-left: 25%; width:50%;height: 10%;">
+        </p>
+
+        <footer>
+            <div class="f">
+                <div class="z">
+                    <a href="cssproject.html">HOME</a> |
+                    <a href="aboutcss.html" target="_blank">ABOUT US</a> |
+                    <a href="#ORIGINAL_BOOKINGS">ORIGINAL BOOKINGS</a> |
+                    <a href="#UPCOMING_PROJECTS">UPCOMING PROJECTS</a> |
+                    <a href="contact csshtml.html" target="_blank">CONTACT US</a>
+                    <p>
+                        © Copyright 2020 - Sandeep. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

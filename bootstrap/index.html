@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <style>
+        .t {
+            font-size: larger;
+            color: black;
+            text-indent: 4px;
+        }
+        
+        .q {
+            font-weight: bolder;
+            opacity: 1;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .u {
+            font-size: larger;
+            color: blue;
+            text-shadow: 2px 1.5px black;
+            font-weight: bold;
+            opacity: 1;
+        }
+        
+        .b {
+            background-color: orangered;
+            opacity: 0.3;
+            border-radius: 30%;
+            border: brown dashed 2px;
+        }
+        
+        .j {
+            color: cyan;
+            opacity: 1;
+            font-size: x-large;
+            margin-top: 10%;
+            font-weight: bold;
+        }
+        
+        .checked {
+            color: blue
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px black;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xxl navbar-light bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a><span class="navbar-brand mb-0 h1" href="#" style="font-size: xx-large;">Resume.</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a><button type="button" class="btn btn-secondary">+ ORBIT</button></a>
+                    </li>
+                </ul>
+                <a class="navbar-brand ml-auto" href="#">
+                    <button type="button" class="btn btn-black" title="Desktop view">
+                    <i class="fa fa-desktop" aria-hidden="true"style="font-size:50px;color:black"></i> |
+                    </button>
+                </a>
+                <a class="navbar-brand" href="#">
+                    <button type="button" class="btn btn-black" title="Tablet view">
+                    <i class="fa fa-tablet" aria-hidden="true"style="font-size:50px;color:black"></i> |
+                    </button>
+                </a>
+                <a class="navbar-brand" href="#">
+                    <button type="button" class="btn btn-black" title="Smartphone view">
+                    <i class="fa fa-mobile-phone" aria-hidden="true"style="font-size:50px;color:black"></i> |
+                    </button>
+                </a>
+                <a class="navbar-brand" href="#">
+                    <button type="button" class="btn btn-secondary" title="Tablet view">
+                    <i class="fa fa-cart-plus" aria-hidden="true"style="font-size:50px;color:black"></i>
+                    </button>
+                </a>
+            </div>
+        </nav>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient alert-link my-1" style="background-color:dimgray;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://image.freepik.com/vetores-gratis/design-de-logotipo-abstrato-criativo-de-pedras-de-spa_260747-140.jpg" style="border-radius: 40%;opacity: 0.8;height: 90px; width: 130px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item t" style="margin-left: 40%;">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item t">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown t">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                    <li class="dropdown-item">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" t href="#">Menu Two</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                            <li><a class="dropdown-item" href="#">Sub Menu One</a></li>
+                                            <li><a class="dropdown-item" href="#">Sub Menu Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Sub Menu Three</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Menu Three</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item t">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item t">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item t">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item t">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="bg-image text-center shadow-1-strong rounded mb-13 text-white col-sm-12" style="background-image: url('https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200');height: 80vh; width:100%; background-size: cover;">
+            <div class="container">
+                <div class="carousel-caption col-sm-6 mt-sm-7 text-center">
+                    <p style="color: black; z-index: 1;text-shadow:2px 2px blue; font-weight: bolder; font-size: xx-large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding-bottom: 120px;">I'm Mehak Dudani<br> a Front-end Developer<br>
+                        <span style="color:red; font-size:x-large;text-shadow: 2px 2px yellow ;font-weight: bold; margin-bottom: 100px;"><i>my sample resume</i></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image text-left shadow-1-strong rounded text-black" style="background-image: url('https://i.pinimg.com/originals/27/57/83/2757839dbfdfc9c0f5335cdb2ca76e0c.jpg');height: 80vh; width:100%; background-size: cover;">
+            <div class="container-fluid">
+                <div class="carousel-caption1">
+                    <p style="margin-top: 0%;">
+                        <h1 style="color: deeppink;font-family: cursive;font-weight: bolder;">Mehak Dudani</h1>
+                        <h4 style="color: indigo;font-weight: bold;">Front-end Developer</h4>
+                        <hr>
+                    </p>
+                    <p style="color: brown;font-weight: bold;font-size: larger;font-family:Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 1px black;">
+                        <i class="d-block">
+                            Experienced Front-end Developer who is comfortable working with JavaScript,HTML/CSS to deliver exceptional<br> customer experiences.looking for an opportunity to work at an company like xyz.co with a positive<br> social mission to democratize online payments. 
+                        </i>
+                    </p><br>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p class="col-sm-12">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg5sHHzvPSUSrqvME1yiCn91q4huGpitvyWZxz0TxQLPHb2ipAIBEA4SWjbvbuGDAHA6o&usqp=CAU" width="80%%" height="100%" style="border-radius: 20%;margin-left: 35%;">
+                                    </p>
+                                </td>
+                                <td>
+                                    <div class="text-center ml-5 pl-5 col-sm-12 mb-sm-6">
+                                        <h1 class="q b">My Bio</h1>
+                                        <p class="d-block"><span class="u" style="opacity: 1;">My name is mehak dudani resident of new delhi. <br>I'm pursuing bachelor of computer application (BCA). I am an<br> optimistic person and a great observer ,i love to explore <br>new things, i am ambitious and driven. I thrive on challenge<br> and constantly set goals for myself. I'm always looking<br> for an opportunity to do better and achieve greatness</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image text-center shadow-1-strong rounded mb-13 text-white" style="background-image: url('https://www.expatica.com/app/uploads/sites/17/2021/02/qualifications-in-austria-1920x1080.jpg');height: 50vh; width:100%; background-size: cover; opacity: 0.5;border-radius: 50%;box-shadow: 5px 10px 8px 10px black">
+            <div class="container">
+                <div class="carousel-caption2">
+                    <h1 class="text-center q mb-5 mt-1" style="text-decoration: dotted underline;"><i>Education</i></h1>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <th scope="row" class="j"><i>Bachelor's in Computer Application:</i></th>
+                                <td class="j">from <span style="color:yellow;">Bharati Vidyapeeth Institute of Management<br> and Research</span> (deemed Unerversity), New Delhi<br>Year:2019-22</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <th scope="row" class="j"><i>12th Standard(1+2):</i></th>
+                                <td class="j">done schooling from <span style="color: maroon;"> Fr.Agnel School</span><br>Gautam Nagar, New Delhi<br>Year:2019</td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image text-center shadow-1-strong rounded mb-13 text-white col-sm-6" style="background-image: url('https://www.oecd-ilibrary.org/sites/53c2f904-en/images/eps/5--hand_pen--GettyImages_99277172.png');height: 85vh; width:100%; background-size: cover; opacity: 0.5; box-shadow: 8px 10px 8px 10px black;border-radius: 7%;">
+            <div class="container">
+                <div class="carousel-caption3">
+                    <h1 class="text-center q" style="color: black; text-decoration: dotted underline;">Skills</h1>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <th scope="row" class="q col-sm-6 p-sm-5 col-md-5 p-md" style="font-size: x-large;">Skills</th>
+                                <td class="q col-sm-6 p-sm-5 col-md-7 p-md" style="font-size: x-large;">
+                                    <ul class="q" style="text-decoration: double underline;"><i>Languages:</i></ul>
+                                    <li>HTML 5
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </li>
+                                    <li>JavaScript
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li>CSS 3
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </li>
+                                    <ul class="q" style="text-decoration: double underline;"><i>Front-end</i></ul>
+                                    <li>Bootstrap
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li>Ejs
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <ul class="q" style="text-decoration: double underline;"><i>Back-end</i></ul>
+                                    <li>NodeJS
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <ul class="q" style="text-decoration: double underline;"><i>Database</i></ul>
+                                    <li>MongoDB
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </li>
+                                </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bg-image text-left shadow-1-strong rounded text-black" style="background-image: url('https://i.pinimg.com/originals/27/57/83/2757839dbfdfc9c0f5335cdb2ca76e0c.jpg');height: 80vh; width:100%; background-size: cover;">
+            <div class="container-fluid">
+                <div class="carousel-caption1">
+                    <h1 class="text-center q" style="background-color: lightsalmon;box-shadow: 5px 10px 8px 9px palevioletred;"><i>Certificates</i></h1>
+                </div><br><br>
+                <div class="d-flex">
+                    <div class="card ml-5 col-sm-4 col-4.col-md-4" style="width: 26rem;">
+                        <img class="card-img-top" src="public/img/TEN(TEC).jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text" style="font-weight: bold;font-family:cursive;"><i>I was fortunate enough to be a part of a start-up "TEN", where i worked as an associate in technical program management, This internship provided an indispensable platform that broadened my horizons, helped in improving/enhacing
+                                my managerial skills.</i></p>
+                        </div>
+                    </div>
+                    <div class="card ml-5 col-sm-4 col-4.col-md-4" style="width: 26rem;">
+                        <img class="card-img-top" src="public/img/ten(PRO).jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text" style="font-weight: bold;font-family:cursive;"><i>I was fortunate enough to be a part of a start-up "TEN", where i worked as an associate in project management, This internship provided an indispensable platform that broadened my horizons, helped in improving/enhacing my managerial
+                                skills.</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card ml-5 col-sm-4 col-4.col-md-4" style="width: 26rem;">
+                        <img class="card-img-top" src="public/img/smm cert.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text" style="font-weight: bold;font-family:cursive;"><i>I was fortunate enough to be a part of a start-up "TEN", where i worked as an intern in social media management, This internship provided an indispensable platform that broadened my horizons, helped in improving/enhacing my
+                                managerial skills, where i learned importance of social media in business world</i></p>
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="bg-dark bg-gradient text-white">
+                    <h1 class="text-center" style="background-color: black;box-shadow: 5px 10px 8px 10px black;"><i>Personal Details</i></h1><br><br>
+                    <div class="d-flex">
+                        <div class="container-fluid">
+                            <div>
+                                <p class="ml-5" style="text-decoration: dotted underline; font-size:x-large; font-weight: bold;"><i>Contact No.: 75505xxxx</i></p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-center ml-5" style="text-decoration: dotted underline; font-size: x-large; font-weight: bold;"><i>Email id: mehakdudani@gmail.com</i></p>
+                            </div>
+                            <div class="text-right">
+                                <p class="ml-5 text-right" style="text-decoration: dotted underline; font-size: x-large; font-weight: bold;"><i>Address: Lajpat Nagar</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+</html>
